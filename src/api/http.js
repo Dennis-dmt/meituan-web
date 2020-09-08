@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const $axios = axios.create({
-  baseURL: 'http://open.duyiedu.com'
+  baseURL: 'https://open.duyiedu.com'
 })
 
 $axios.interceptors.request.use(request => {
