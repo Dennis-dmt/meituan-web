@@ -20,14 +20,14 @@
         <el-input
           :class="{error: error && !userName}"
           v-model="userName"
-          placeholder="手机号/用户名/邮箱"
+          placeholder="手机号/用户名/邮箱_dumengteng"
           prefix-icon="profile"
         ></el-input>
         <el-input
           :class="{error: error && !password}"
           v-model="password"
           type="password"
-          placeholder="密码"
+          placeholder="密码_devilhunter90"
           prefix-icon="password"
         ></el-input>
         <div class="foot">
